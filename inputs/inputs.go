@@ -1,6 +1,7 @@
 package inputs
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
 	"io"
@@ -77,4 +78,12 @@ func online(year, day int) ([]byte, error) {
 		return nil, fmt.Errorf("response length = %d, want non-zero", l)
 	}
 	return data, nil
+}
+
+func Lines(i []byte) []string {
+	var o []string
+	for _, l := range bytes.Split(i[:len(i)-1], []byte("\n")) {
+		o = append(o, string(l))
+	}
+	return o
 }

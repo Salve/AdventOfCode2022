@@ -4,6 +4,7 @@ import (
 	"fmt"
 	_ "github.com/Salve/AdventOfCode2022/day1"
 	_ "github.com/Salve/AdventOfCode2022/day2"
+	_ "github.com/Salve/AdventOfCode2022/day3"
 	"github.com/Salve/AdventOfCode2022/registry"
 	"time"
 )

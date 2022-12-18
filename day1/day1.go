@@ -11,7 +11,7 @@ import (
 
 const day = 1
 
-var input = inputs.Input(day)
+var input []byte
 
 func init() {
 	registry.Register(day, Run)
@@ -20,6 +20,7 @@ func init() {
 var ssums []int
 
 func Run() {
+	input = inputs.Input(day)
 	ssums = sortedSums()
 	part1()
 	part2()
