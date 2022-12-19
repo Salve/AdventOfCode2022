@@ -8,6 +8,8 @@ import (
 	_ "github.com/Salve/AdventOfCode2022/day4"
 	_ "github.com/Salve/AdventOfCode2022/day5"
 	_ "github.com/Salve/AdventOfCode2022/day6"
+	_ "github.com/Salve/AdventOfCode2022/day7"
+	_ "github.com/Salve/AdventOfCode2022/day8"
 	"github.com/Salve/AdventOfCode2022/registry"
 	"time"
 )
