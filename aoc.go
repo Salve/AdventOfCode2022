@@ -5,6 +5,7 @@ import (
 	"time"
 
 	_ "github.com/Salve/AdventOfCode2022/day1"
+	_ "github.com/Salve/AdventOfCode2022/day10"
 	_ "github.com/Salve/AdventOfCode2022/day2"
 	_ "github.com/Salve/AdventOfCode2022/day3"
 	_ "github.com/Salve/AdventOfCode2022/day4"
