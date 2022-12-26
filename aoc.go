@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"time"
+
 	_ "github.com/Salve/AdventOfCode2022/day1"
 	_ "github.com/Salve/AdventOfCode2022/day2"
 	_ "github.com/Salve/AdventOfCode2022/day3"
@@ -10,8 +12,8 @@ import (
 	_ "github.com/Salve/AdventOfCode2022/day6"
 	_ "github.com/Salve/AdventOfCode2022/day7"
 	_ "github.com/Salve/AdventOfCode2022/day8"
+	_ "github.com/Salve/AdventOfCode2022/day9"
 	"github.com/Salve/AdventOfCode2022/registry"
-	"time"
 )
 
 func main() {
